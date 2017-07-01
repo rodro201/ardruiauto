@@ -1,0 +1,59 @@
+body{
+	background-image: url("./imagenes/arduino.jpg");
+	  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover	
+}
+h1{
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+}
+
+.control{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.arriba{
+	height: 6.5%;
+	width: 4%;
+	position: absolute;
+	left: 21%;
+	bottom: 82%;
+	cursor: pointer;
+	background: transparent;
+}
+.abajo{
+	height: 6.5%;
+	width: 4%;
+	position: absolute;
+	left: 20.5%;
+	bottom: 66%;
+	cursor: pointer;
+	background: transparent;
+}
+.izquierda{
+	height: 5%;
+	width: 5%;
+	position: absolute;
+	left: 13.8%;
+	bottom: 74.5%;
+	cursor: pointer;
+	background: transparent;
+}
+.derecha{
+	height: 5%;
+	width: 5%;
+	position: absolute;
+	left: 26%;
+	bottom: 74.5%;
+	cursor: pointer;
+	background: transparent;
+}
+.click{
+	background: gray;
+}
+
